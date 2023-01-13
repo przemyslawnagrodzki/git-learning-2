@@ -1,0 +1,26 @@
+przee@DESKTOP-B3SC8N6 MINGW64 ~/OneDrive/Desktop/Kodilla/learning-git-2 (master)
+$ npm install --save-dev
+
+up to date, audited 177 packages in 582ms
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+przee@DESKTOP-B3SC8N6 MINGW64 ~/OneDrive/Desktop/Kodilla/learning-git-2 (master)
+$ npm exec html-validate index.html
+
+C:\Users\przee\OneDrive\Desktop\Kodilla\learning-git-2\index.html
+   9:79  error  Trailing whitespace                                                           no-trailing-whitespace
+  10:12  error  Trailing whitespace                                                           no-trailing-whitespace
+  17:11  error  Trailing whitespace                                                           no-trailing-whitespace
+  52:12  error  Trailing whitespace                                                           no-trailing-whitespace
+  53:1   error  Trailing whitespace                                                           no-trailing-whitespace
+  56:1   error  Missing close-tag, expected '</html>' but document ended before it was found  close-order
+
+✖ 6 problems (6 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/no-trailing-whitespace.html
+  https://html-validate.org/rules/close-order.html
